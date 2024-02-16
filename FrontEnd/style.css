@@ -1,0 +1,68 @@
+  body {
+
+    
+    /* h1{
+        
+    } */
+    
+    p{
+
+        font-size: 13px;
+        /* background: #CCCCCC; */
+    }
+
+    /* body{
+
+        background: #cccccc;
+    } */
+
+    em strong{
+        color: red;
+
+    }
+
+    #banner {
+      width: 100%;  
+    }
+
+    .principal {
+        background: #cccccc;
+        padding: 20px;
+    }
+
+    #titulo {
+        text-align: center;
+    }
+
+    #Mision {
+
+       font-size: 20px; 
+       text-align: center;
+    }
+
+    .items{
+        font-style: italic;
+       
+    }
+
+    .diferenciales {
+        background-color: #FFFFFF;
+        padding: 30px;
+    
+    }
+
+    ul{
+        display: inline-block;
+        /* esta propiedad lo que hace es permitirme acomodar imagenes justo a un lado de 
+        los elementos de la lista ul */
+        vertical-align: top;
+        /* para alinear la imagen al texto desde arriba */
+        width: 23%;
+        margin-right: 15%;
+        font-size: 13px;
+    }
+
+    .imagenDiferenciales{
+        width: 50%;
+    }
+  }

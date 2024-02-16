@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- es muy importante esta referencia ya que le dice al navegador que tipo de codigo estamos mandandole -->
+<html lang="es">
+<!-- esta es la linea del lenguaje -->
+
+    <!-- dentro del codigo es buena practica señalar las secciones del texto -->
+
+    
+    <head>
+        <meta charset="UTF-8">
+        <!-- aqui se señala el tipo de lenguaje que va a utilizar mi codigo (UFT-8 ya incluye casi todos los caracteres) -->
+        <title>Barbería Ammo</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- /* La propiedad link + rel nos ayuda a linkear y relacionar el formato de nuestro codigo HTML con la hoja .css */  -->
+    </head>
+
+    <body>
+        <header>
+            <h1>Barberia Ammo</h1>
+        </header>
+        <img id="banner" src="banner/banner.jpg">
+        <!-- esta es la referencia a la imagen que ya tengo guardada en una carpeta a un lado de mis demas archivos "source" -->
+    <div class="principal">
+        <!-- Al otorgarle "Class" a los diferentes Tags dentro del texto me permite hacerle modificaciones en .css especificamente a esa clase, dentro de otras tags parecidas -->
+        <h2 id="titulo"> Sobre la Barbería Ammo</h2>
+        <!-- el ID es como otorgarle una identidad a una etiqueta y poder diferenciarla de otras -->
+        <p>Ubicada en el corazón de la ciudad, <strong>la Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Ammo ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
+
+        <p id= "Mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
+        
+        <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El servicio al cliente posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+    </body>
+    </div>
+
+    <div class="diferenciales">
+        <h3>Diferenciales</h3>
+        <ul>
+            <!-- Unordered list / Ordered List (OL) -->
+          <li class="items">Atencion personalizada a los clientes</li>
+          <li class="items">Espacio Diferenciado</li>
+          <li class="items">Localizacion</li>
+          <li class="items">Profesionales Calificados</li>      
+        </ul>
+
+        <img src="diferenciales/diferenciales.jpg" class="imagenDiferenciales">
+        <!-- de nuevo se esta utilizando img src para insertar una imagen dentro del codigo
+        (Previamente descargada, localizada en el lugar correcto con el nombre correcto) -->
+    </div>
+
+
+    
+</html>
